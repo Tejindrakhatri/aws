@@ -1,0 +1,1 @@
+aws ec2 run-instances --image-id ami-09dd22d37b674140a --count 1 --instance-type t2.micro --key-name tej --security-groups launch-wizard-1 --region us-east-2
